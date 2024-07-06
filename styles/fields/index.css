@@ -7,6 +7,18 @@ input, textarea, select {
   border: 1px solid var(--stroke-default);
   padding: 0.75rem 1rem;
   font: var(--text);
+
+  &::placeholder {
+    color: var(--text-tertiary);
+  }
+
+  &[disabled] {
+    background-color: var(--surface-disabled);
+  }
+}
+
+.input-wrapper:has([disabled]) {
+  opacity: 0.5;
 }
 
 label {
@@ -48,4 +60,8 @@ input[type="date"] {
 
 select {
   background: url(../../assets/icons/arrow-down-01.svg) no-repeat calc(100% - 1rem);
+}
+
+.address .flex {
+  gap: 1.25em;
 }

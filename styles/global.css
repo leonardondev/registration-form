@@ -32,11 +32,23 @@ body {
   color: var(--text-secondary);
 }
 
-h1, h2 {
+h1, h2, input, textarea, select {
   color: var(--text-primary);
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
 }
