@@ -18,6 +18,7 @@
   --surface-secondary: #FEE7D6;
   --surface-disabled: #E7E5E4;
   --stroke-default: #D6D3D1;
+  --stroke-secondary: #A8A29E;
   --stroke-highlight: #F3541C;
   --semantic-error: #DC2626;
 }
@@ -27,5 +28,15 @@ body {
   background-color: #202024;
   max-width: 1280px;
   margin: auto;
+  font: var(--text);
+  color: var(--text-secondary);
 }
 
+h1, h2 {
+  color: var(--text-primary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

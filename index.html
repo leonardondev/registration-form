@@ -7,19 +7,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
   <title>Estrelas do Amanhã</title>
 </head>
 
 <body>
   <div id="app">
     <main>
-      <div class="main-container">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum eaque libero perferendis nostrum, optio numquam in fuga est dolores iusto unde reprehenderit magnam, praesentium dicta alias, consectetur expedita sapiente officiis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam dolores vel iusto, est provident laudantium beatae non? Eius, minus! Veritatis tempore cupiditate, voluptas consequuntur accusantium magni quibusdam delectus asperiores consectetur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque necessitatibus adipisci ullam earum vero, consectetur laboriosam voluptas molestias quas accusantium consequatur dolore distinctio harum maxime hic? Porro nulla recusandae eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, blanditiis quia nihil nulla sequi temporibus cum eos illum, eius asperiores tenetur nesciunt cupiditate odio ea laboriosam culpa mollitia. Nihil, possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sint quidem aperiam hic eius ad iure consequuntur! Soluta alias, iure animi explicabo natus iste similique fugiat ab debitis ipsam veniam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, quasi modi animi rem debitis unde numquam maxime dolores velit iusto quas nostrum natus quidem neque? Velit asperiores perferendis quos illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ratione ipsam deserunt, blanditiis eaque soluta porro. Dolor quae sint harum repellat praesentium obcaecati fugiat quis non ut, ullam quisquam iure? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptate, quos recusandae error aspernatur temporibus itaque. Recusandae hic accusamus fuga porro laboriosam, sed adipisci aspernatur consequatur illum nostrum ipsa incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, magni amet dolores quas vero illo! Iusto impedit nam odio, quod ipsum consequuntur consequatur a commodi officia dolor alias dicta. Vel! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem deserunt ab enim natus odio consectetur? Pariatur, sint minus cumque odio rerum recusandae dolorem ut modi consequatur, aliquam assumenda animi repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos expedita quisquam autem molestias quos et quo inventore officiis magni consequuntur eius nihil dolore amet quas, ipsa iure fugiat eaque cumque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum voluptas facilis veritatis ab, quam quasi ducimus, quia error unde nulla vel perferendis doloribus quibusdam delectus! Obcaecati impedit velit dolore vero. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore excepturi quasi ullam odit odio, in architecto esse provident aut aperiam amet, reiciendis omnis quos, molestias voluptatibus? Aspernatur odit culpa quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic reiciendis vel maxime excepturi labore perferendis at praesentium reprehenderit cum consequatur fuga consequuntur quas aut, pariatur modi tempore fugiat, ea ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cupiditate quidem quam! Modi voluptatum sit illo voluptatem provident quidem, natus odio! Dolorem enim quo distinctio nihil numquam delectus asperiores accusantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ad, possimus cum, ipsa incidunt doloremque saepe labore praesentium eum iure quas magni cumque impedit vitae nihil itaque, distinctio quis. Beatae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores voluptatem ipsam nobis dolorum, veritatis saepe rem quos iste enim nisi officia temporibus non incidunt? Incidunt nostrum culpa unde suscipit sunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis voluptatibus voluptas dolor nobis repellendus alias voluptate deleniti, aut fuga? Nihil adipisci repudiandae magni at, pariatur temporibus voluptas iste expedita eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veritatis impedit repellendus, aperiam recusandae voluptates maiores doloremque obcaecati id consectetur voluptatibus blanditiis ad deserunt ullam commodi eaque enim earum culpa! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis tempora cum quas, obcaecati hic blanditiis natus veniam. Dolore fuga deleniti similique expedita nesciunt suscipit, in vero saepe, delectus molestias ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, minus, veniam voluptates unde eaque cum obcaecati harum eum eveniet laudantium at beatae consectetur ipsum quam quidem hic possimus explicabo vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae expedita aspernatur quaerat voluptatibus? Commodi optio blanditiis asperiores magnam, soluta velit. Culpa quod illo quidem deleniti at. Magni ad officiis eius!
+      <div class="main-container">
+        <div class="back">
+          <img src="assets/icons/arrow-left-02.svg" alt="Ícone de voltar">
+          <span>Voltar</span>
+        </div>
+
+        <h1>Formulário de matrícula</h1>
+        <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+
+        <form enctype="multipart/form-data" method="post">
+          <fieldset class="child-info">
+            <legend>Informações da criança</legend>
+
+            <div class="input-wrapper">
+              <label for="fullName">Nome completamento</label>
+              <input type="text" name="fullName" id="fullName" placeholder="Qual o nome da criança">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="birth">Data de nascimento</label>
+              <input type="date" name="birth" id="birth" lang="pt-BR">
+            </div>
+
+            <div class="select-wrapper">
+              <label for="gender">Sexo</label>
+              <select type="date" name="gender" id="gender">
+                <option value="female">Feminino</option>
+                <option value="male">Masculino</option>
+                <option value="na">Prefiro não responder</option>
+              </select>
+            </div>
+
+            <div class="textarea-wrapper">
+              <label for="medical-info">Informações médicas</label>
+              <textarea name="medical-info" id="medical-info" cols="30" rows="5"
+                placeholder="A criança possui alguma condição médica que a escola deve estar ciente? (Se sim, especifique)"></textarea>
+            </div>
+
+            <div class="droparea-wrapper">
+              <label for="birth-file">Certidão de nascimento</label>
+              <div class="dropzone">
+                <input type="file" name="birth-file" id="birth-file">
+                <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M 12,2.25 C 8.9315928,2.25 6.443108,4.5087262 5.921875,7.4375 3.2768521,7.9555306 1.25,10.224846 1.25,13.017578 c 0,2.777809 1.9726275,5.110327 4.5996094,5.644531 A 0.75,0.75 0 0 0 6.734375,18.076172 0.75,0.75 0 0 0 6.1503906,17.191406 C 4.2128971,16.797411 2.75,15.086565 2.75,13.017578 2.75,10.79407 4.4347745,8.9849353 6.5917969,8.7792969 6.7260329,8.7664975 6.8620294,8.7597656 7,8.7597656 c 0.9602642,0 1.83793,0.314522 2.5488281,0.8496094 A 0.75,0.75 0 0 0 10.599609,9.4628906 0.75,0.75 0 0 0 10.451172,8.4121094 C 9.6147843,7.782567 8.5800578,7.432647 7.4785156,7.3378906 8.0090501,5.2898341 9.7843522,3.75 12,3.75 c 2.631528,0 4.75,2.1212104 4.75,4.7597656 0,0.1463674 -0.0067,0.2907154 -0.01953,0.4335938 -0.08848,0.9829551 -0.473518,1.8765086 -1.066406,2.5957036 a 0.75,0.75 0 0 0 0.101562,1.05664 0.75,0.75 0 0 0 1.056641,-0.101562 C 17.433776,11.752357 17.81028,10.838776 18.029297,9.8671875 19.843901,10.133038 21.25,11.622797 21.25,13.519531 c 0,1.943424 -1.456713,3.526673 -3.332031,3.734375 a 0.75,0.75 0 0 0 -0.664063,0.828125 0.75,0.75 0 0 0 0.828125,0.664063 C 20.706708,18.455396 22.75,16.217102 22.75,13.519531 22.75,10.884056 20.762996,8.781966 18.230469,8.4101563 18.173872,5.0107918 15.408442,2.25 12,2.25 Z" />
+                  <path
+                    d="m 12,12.25 c -0.123968,0 -0.237113,0.01965 -0.337891,0.04883 -0.403564,0.116572 -0.653008,0.338497 -0.912109,0.580078 -0.259101,0.241582 -0.50527,0.520751 -0.738281,0.800782 -0.4660233,0.560061 -0.9225577,1.166964 -1.0488284,1.296875 a 0.75,0.75 0 0 0 0.013672,1.060546 0.75,0.75 0 0 0 1.0605465,-0.01367 c 0.336506,-0.346206 0.703497,-0.875859 1.126954,-1.384765 0.02992,-0.03596 0.05598,-0.05855 0.08594,-0.09375 V 21 A 0.75,0.75 0 0 0 12,21.75 0.75,0.75 0 0 0 12.75,21 v -6.439453 c 0.156257,0.184073 0.311033,0.355002 0.460938,0.544922 0.283315,0.358939 0.516854,0.676077 0.751953,0.917968 a 0.75,0.75 0 0 0 1.060547,0.01367 0.75,0.75 0 0 0 0.01367,-1.060546 c -0.08823,-0.09079 -0.356349,-0.428775 -0.648437,-0.798829 -0.271291,-0.343709 -0.58109,-0.730161 -0.90625,-1.068359 -0.32516,-0.338198 -0.61603,-0.654722 -1.136719,-0.808594 C 12.243412,12.270557 12.127662,12.25 12,12.25 Z" />
+                </svg>
+                <p>
+                  Clique aqui para <br />
+                  selecionar arquivos
+                </p>
+              </div>
+            </div>
+          </fieldset>
+
+        </form>
       </div>
     </main>
 
     <aside>
-      <div class="aside-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deserunt nisi ullam repellat modi explicabo facere eum culpa ipsam eligendi ad sapiente fugiat excepturi impedit aperiam maxime, non asperiores esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero in molestias eaque iste et, nulla officiis labore veniam at voluptate suscipit error recusandae repudiandae voluptatum numquam reprehenderit ullam fugit rem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ipsum magni laboriosam accusantium, provident quod suscipit culpa error minima rerum placeat maxime, illum beatae nisi expedita repudiandae odio numquam? Nihil. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, quae itaque. Quae, quasi aliquam voluptas explicabo esse nemo ullam laboriosam sequi accusantium in earum, inventore sint labore voluptatem fuga delectus.</div>
+      <div class="aside-container">
+        <header>
+          <div class="logo">
+            <img src="assets/stars.svg" alt="Desenho de estrelas"><span>Estrelas do Amanhã</span>
+          </div>
+          <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
+          <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
+        </header>
+
+        <img src="assets/logo.svg" alt="Ilustração de uma professora com crianças prestando atenção">
+      </div>
     </aside>
   </div>
 </body>
