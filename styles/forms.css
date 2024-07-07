@@ -2,6 +2,9 @@
 
 form {
   margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 fieldset {
@@ -15,6 +18,10 @@ legend {
   margin-bottom: 1.5rem;
 }
 
-fieldset + fieldset {
-  margin-top: 3rem;
+.actions-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
 }
