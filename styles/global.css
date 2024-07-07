@@ -29,12 +29,18 @@
 }
 
 body {
-  overflow: hidden;
   background-color: #202024;
-  max-width: 1280px;
   margin: auto;
   font: var(--text);
   color: var(--text-secondary);
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+    max-width: 80rem;
+    min-width: 48rem;
+  }
 }
 
 h1, h2, input, textarea, select {
