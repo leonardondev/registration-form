@@ -6,6 +6,7 @@ button {
   border-radius: 0.5rem;
   cursor: pointer;
   border: 1px solid var(--brand-dark);
+  text-align: center;
 
   &.btn-primary {
     color: #ffffff;
